@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Narrow Way | Redesign Concept</title>
+<meta name="description" content="Redesign concept for The Narrow Way. Layout placeholders use reference photography.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter+Tight:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="concept-bar">Design concept. Photos and product names are placeholders showing where her own images and products will go.</div>
+
+<!-- SECTION: header (-> sections/header.liquid) -->
+<header class="site-header">
+  <a class="brand" href="#top">THE NARROW WAY</a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="#top">Home</a>
+    <a href="#catalog">Catalog</a>
+    <a href="#collections">Collections</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="header-tools">
+    <button class="icon-btn" aria-label="Search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    </button>
+    <button class="icon-btn" aria-label="Cart">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg>
+    </button>
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8h16M4 16h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- SECTION: hero slideshow (-> sections/slideshow.liquid) -->
+<section class="hero" aria-label="Featured">
+  <div class="hero-slide is-active">
+    <img src="assets/placeholder/eTeWgqyYwLTLBC01MsUlDv7Om4.jpg" alt="">
+    <div class="hero-copy">
+      <h1>YAH'S Collection</h1>
+      <a class="btn btn-light" href="#catalog">Shop now</a>
+    </div>
+  </div>
+  <div class="hero-slide">
+    <img src="assets/placeholder/6nc2A8DJ0MeoW8fkZVPZN7kW5Sw.jpg" alt="" loading="lazy">
+    <div class="hero-copy">
+      <h1>Walk the narrow way</h1>
+      <a class="btn btn-light" href="#catalog">Shop now</a>
+    </div>
+  </div>
+  <div class="hero-slide">
+    <img src="assets/placeholder/SBGxX9TdDbTAqNo8h9lfzUdbNbU.jpg" alt="" loading="lazy">
+    <div class="hero-copy">
+      <h1>Faith you can wear</h1>
+      <a class="btn btn-light" href="#catalog">Shop now</a>
+    </div>
+  </div>
+  <div class="hero-dots" role="tablist" aria-label="Slides">
+    <button class="is-active" aria-label="Slide 1"></button>
+    <button aria-label="Slide 2"></button>
+    <button aria-label="Slide 3"></button>
+  </div>
+</section>
+
+<!-- SECTION: featured collection (-> sections/featured-collection.liquid) -->
+<section class="section" id="catalog">
+  <div class="section-head reveal">
+    <h2>New Arrivals</h2>
+    <a class="btn btn-outline" href="#">View more</a>
+  </div>
+  <div class="grid grid-3">
+    <article class="card reveal">
+      <a class="card-media" href="#">
+        <img src="assets/placeholder/9DtMSQe9bZ96c1qpVdyIMPwBiw.png" alt="Product placeholder" loading="lazy">
+        <img class="alt" src="assets/placeholder/MfaLxihi7o1cYlu5m1PPp2Y1WA.png" alt="" loading="lazy">
+      </a>
+      <h3>YHWH's Own Tee</h3><p class="price">£24.99 GBP</p>
+    </article>
+    <article class="card reveal">
+      <a class="card-media" href="#">
+        <img src="assets/placeholder/J80m19lyqqYB7SIMkhiDOSeldI.png" alt="Product placeholder" loading="lazy">
+        <img class="alt" src="assets/placeholder/Ns0Hd5ApTjQWYeBe6qGgcHRNUZs.png" alt="" loading="lazy">
+      </a>
+      <h3>Essential Drawstring Jogged Sweatpants</h3><p class="price">£25.99 GBP</p>
+    </article>
+    <article class="card reveal">
+      <a class="card-media" href="#">
+        <img src="assets/placeholder/uH06piEmXWuu9kWicB5U5Hq4I44.png" alt="Product placeholder" loading="lazy">
+        <img class="alt" src="assets/placeholder/8eqzCR6o1ZTCpRLR72KVJMcevzo.png" alt="" loading="lazy">
+      </a>
+      <h3>Narrow Way Hoodie</h3><p class="price">£39.99 GBP</p>
+    </article>
+  </div>
+</section>
+
+<!-- SECTION: value points (-> sections/multicolumn.liquid) -->
+<section class="section values">
+  <div class="value reveal"><span class="num">01</span><h3>Made with purpose</h3><p>Every piece carries a message rooted in scripture and made to last.</p></div>
+  <div class="value reveal"><span class="num">02</span><h3>Wear your faith</h3><p>Clean, modern pieces that start conversations.</p></div>
+  <div class="value reveal"><span class="num">03</span><h3>Curated for you</h3><p>Simple essentials you will reach for every day.</p></div>
+</section>
+
+<!-- SECTION: collection list (-> sections/collection-list.liquid) -->
+<section class="section" id="collections">
+  <div class="section-head reveal"><h2>Collections</h2></div>
+  <div class="grid grid-4">
+    <a class="collection reveal" href="#">
+      <div class="tall"><img src="assets/placeholder/ddoLzHg7NOMDcdOoBZR0kB2KM.png" alt="" loading="lazy"></div>
+      <h3>YAH'S Collection</h3><p>Our signature collection. Bold statements, soft fabrics.</p>
+    </a>
+    <a class="collection reveal" href="#">
+      <div class="tall"><img src="assets/placeholder/mRhqLMS79dDkv7hTXqxXcotsxRQ.png" alt="" loading="lazy"></div>
+      <h3>The Essentials</h3><p>Everyday basics in quality materials.</p>
+    </a>
+    <a class="collection reveal" href="#">
+      <div class="tall"><img src="assets/placeholder/JI3GVnalWkkvHBfei0fv8GDR3ug.png" alt="" loading="lazy"></div>
+      <h3>Tees</h3><p>Scripture on cotton, made to be worn on repeat.</p>
+    </a>
+    <a class="collection reveal" href="#">
+      <div class="tall"><img src="assets/placeholder/Urtqf3P5RwoYjeMRi18exmBKwCo.png" alt="" loading="lazy"></div>
+      <h3>Accessories</h3><p>Small pieces that finish the look.</p>
+    </a>
+  </div>
+</section>
+
+<!-- SECTION: image banner (-> sections/image-banner.liquid) -->
+<section class="banner">
+  <img class="parallax" src="assets/placeholder/SBGxX9TdDbTAqNo8h9lfzUdbNbU.jpg" alt="" loading="lazy">
+  <p class="reveal">Discover a brand where faith, quality and craftsmanship come together.</p>
+</section>
+
+<!-- SECTION: second featured collection -->
+<section class="section">
+  <div class="section-head reveal">
+    <div><span class="eyebrow">Best sellers</span><h2>Customer Favourites</h2></div>
+    <a class="btn btn-outline" href="#">View more</a>
+  </div>
+  <div class="grid grid-3">
+    <article class="card reveal">
+      <a class="card-media" href="#">
+        <img src="assets/placeholder/iToqK4FLzUJxEAEdtOKKho5B530.png" alt="Product placeholder" loading="lazy">
+        <img class="alt" src="assets/placeholder/rtp58ZnAdGnn620a2hc3O8o615k.png" alt="" loading="lazy">
+      </a>
+      <h3>Placeholder product</h3><p class="price">£29.99 GBP</p>
+    </article>
+    <article class="card reveal">
+      <a class="card-media" href="#">
+        <img src="assets/placeholder/Wa7yCwNrkd8EpzTlZFfAYTurYdc.png" alt="Product placeholder" loading="lazy">
+        <img class="alt" src="assets/placeholder/gdHMr5AC8Wv4w5leEpgUPfX0CY.png" alt="" loading="lazy">
+      </a>
+      <h3>Placeholder product</h3><p class="price">£25.99 GBP</p>
+    </article>
+    <article class="card reveal">
+      <a class="card-media" href="#">
+        <img src="assets/placeholder/gnYracjrKy6Ete0p94z3dwLCU.png" alt="Product placeholder" loading="lazy">
+        <img class="alt" src="assets/placeholder/QrKNGL4kAQcbF1xJzANeqq06eI.png" alt="" loading="lazy">
+      </a>
+      <h3>Placeholder product</h3><p class="price">£14.99 GBP</p>
+    </article>
+  </div>
+</section>
+
+<!-- SECTION: newsletter (-> sections/email-signup.liquid) -->
+<section class="newsletter reveal">
+  <h2>Stay close to the community</h2>
+  <p>Be the first to hear about new drops and special offers.</p>
+  <form onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thank you';">
+    <input type="email" placeholder="Email address" aria-label="Email address" required>
+    <button class="btn btn-dark" type="submit">Subscribe</button>
+  </form>
+</section>
+
+</main>
+
+<!-- SECTION: footer (-> sections/footer.liquid) -->
+<footer class="site-footer" id="contact">
+  <div class="footer-brand">
+    <a class="brand" href="#top">THE NARROW WAY</a>
+    <p>Faith-based apparel.<br>Matthew 7:14</p>
+  </div>
+  <div><h4>Shop</h4><a href="#catalog">Catalog</a><a href="#collections">Collections</a></div>
+  <div><h4>Help</h4><a href="#contact">Contact</a><a href="#">Terms and Policies</a></div>
+  <div><h4>Follow</h4><a href="#">YouTube</a></div>
+  <p class="legal">© 2026 THE NARROW WAY. Redesign concept.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
