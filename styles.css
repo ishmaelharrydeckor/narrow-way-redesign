@@ -120,6 +120,7 @@ h2 { font-size: clamp(26px, 3vw, 36px); font-weight: 500; letter-spacing: -0.05e
   .nav a { padding: 12px 0; font-size: 18px; }
   .hero { aspect-ratio: 4 / 5; }
   .hero-slide img { object-fit: contain; object-position: center 30%; }
+  .hero-copy { padding-bottom: 14%; }
   .grid-3 { grid-template-columns: 1fr; }
   .section-head { align-items: center; }
   .newsletter form { flex-direction: column; }
