@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Narrow Way | Redesign Concept</title>
-<meta name="description" content="Redesign concept for The Narrow Way. Layout placeholders use reference photography.">
+<meta name="description" content="Redesign concept for The Narrow Way, using the store's own products.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter+Tight:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div class="concept-bar">Design concept for The Narrow Way. Photos and product names are placeholders showing how the layout will work once The Narrow Way's own product photography is added.</div>
+<div class="concept-bar">Design concept for The Narrow Way. Products, prices and photos are from the live store; only the layout is new.</div>
 
 <!-- SECTION: header (-> sections/header.liquid) -->
 <header class="site-header">
@@ -41,24 +41,24 @@
 <!-- SECTION: hero slideshow (-> sections/slideshow.liquid) -->
 <section class="hero" aria-label="Featured">
   <div class="hero-slide is-active">
-    <img src="assets/placeholder/eTeWgqyYwLTLBC01MsUlDv7Om4.webp" alt="">
+    <img src="assets/store/hero-1.webp" alt="Ringer tee, sweatpants and zip hoodie">
     <div class="hero-copy">
       <h1>YAH'S Collection</h1>
-      <a class="btn btn-light" href="#catalog">Shop now</a>
+      <a class="btn btn-dark" href="#catalog">Shop now</a>
     </div>
   </div>
   <div class="hero-slide">
-    <img src="assets/placeholder/6nc2A8DJ0MeoW8fkZVPZN7kW5Sw.webp" alt="">
+    <img src="assets/store/hero-2.webp" alt="Striped raglan jackets in grey, black and red">
     <div class="hero-copy">
       <h1>Walk the narrow way</h1>
-      <a class="btn btn-light" href="#catalog">Shop now</a>
+      <a class="btn btn-dark" href="#catalog">Shop now</a>
     </div>
   </div>
   <div class="hero-slide">
-    <img src="assets/placeholder/SBGxX9TdDbTAqNo8h9lfzUdbNbU.webp" alt="">
+    <img src="assets/store/hero-3.webp" alt="Boxy tees in four colours">
     <div class="hero-copy">
       <h1>Faith you can wear</h1>
-      <a class="btn btn-light" href="#catalog">Shop now</a>
+      <a class="btn btn-dark" href="#catalog">Shop now</a>
     </div>
   </div>
   <div class="hero-dots" role="tablist" aria-label="Slides">
@@ -71,30 +71,30 @@
 <!-- SECTION: featured collection (-> sections/featured-collection.liquid) -->
 <section class="section" id="catalog">
   <div class="section-head reveal">
-    <div><h2>New Arrivals</h2><p class="photo-note">Photo guide: one clean front-on shot, plus a second angle or detail that appears on hover.</p></div>
+    <h2>New Arrivals</h2>
     <a class="btn btn-outline" href="#">View more</a>
   </div>
   <div class="grid grid-3">
     <article class="card reveal">
       <a class="card-media" href="#">
-        <img src="assets/placeholder/uH06piEmXWuu9kWicB5U5Hq4I44.webp" alt="YHWH's Own Tee">
-        <img class="alt" src="assets/placeholder/8eqzCR6o1ZTCpRLR72KVJMcevzo.webp" alt="">
+        <img src="assets/store/ringer-1.webp" alt="Unisex Ringer T-Shirt">
+        <img class="alt" src="assets/store/ringer-2.webp" alt="">
       </a>
-      <h3>YHWH's Own Tee</h3><p class="price">£24.99 GBP</p>
+      <h3>Unisex Ringer T-Shirt</h3><p class="price">£15.99 GBP</p>
     </article>
     <article class="card reveal">
       <a class="card-media" href="#">
-        <img src="assets/placeholder/Wa7yCwNrkd8EpzTlZFfAYTurYdc.webp" alt="Essential Drawstring Jogged Sweatpants">
-        <img class="alt" src="assets/placeholder/gdHMr5AC8Wv4w5leEpgUPfX0CY.webp" alt="">
+        <img src="assets/store/pants-1.webp" alt="Essential Drawstring Jogged Sweatpants">
+        <img class="alt" src="assets/store/pants-2.webp" alt="">
       </a>
       <h3>Essential Drawstring Jogged Sweatpants</h3><p class="price">£25.99 GBP</p>
     </article>
     <article class="card reveal">
       <a class="card-media" href="#">
-        <img src="assets/placeholder/9DtMSQe9bZ96c1qpVdyIMPwBiw.webp" alt="Narrow Way Hoodie">
-        <img class="alt" src="assets/placeholder/MfaLxihi7o1cYlu5m1PPp2Y1WA.webp" alt="">
+        <img src="assets/store/hoodie-1.webp" alt="Fleeced Full-Zip Boxy Hoodie">
+        <img class="alt" src="assets/store/hoodie-2.webp" alt="">
       </a>
-      <h3>Narrow Way Hoodie</h3><p class="price">£39.99 GBP</p>
+      <h3>Fleeced Full-Zip Boxy Hoodie</h3><p class="price">£38.25 GBP</p>
     </article>
   </div>
 </section>
@@ -108,60 +108,59 @@
 
 <!-- SECTION: collection list (-> sections/collection-list.liquid) -->
 <section class="section" id="collections">
-  <div class="section-head reveal"><h2>Collections</h2></div>
+  <div class="section-head reveal"><h2>Shop by Collection</h2></div>
   <div class="grid grid-4">
     <a class="collection reveal" href="#">
-      <div class="tall"><img src="assets/placeholder/ddoLzHg7NOMDcdOoBZR0kB2KM.webp" alt=""></div>
+      <div class="tall"><img src="assets/store/ringer-1.webp" alt=""></div>
       <h3>YAH'S Collection</h3><p>Our signature collection. Bold statements, soft fabrics.</p>
     </a>
     <a class="collection reveal" href="#">
-      <div class="tall"><img src="assets/placeholder/mRhqLMS79dDkv7hTXqxXcotsxRQ.webp" alt=""></div>
-      <h3>The Essentials</h3><p>Everyday basics in quality materials.</p>
+      <div class="tall"><img src="assets/store/hoodie-1.webp" alt=""></div>
+      <h3>Hoodies</h3><p>Heavyweight fleece in relaxed, boxy fits.</p>
     </a>
     <a class="collection reveal" href="#">
-      <div class="tall"><img src="assets/placeholder/JI3GVnalWkkvHBfei0fv8GDR3ug.webp" alt=""></div>
-      <h3>Tees</h3><p>Scripture on cotton, made to be worn on repeat.</p>
+      <div class="tall"><img src="assets/store/jogger-1.webp" alt=""></div>
+      <h3>Sweatpants</h3><p>Joggers and wide legs built for every day.</p>
     </a>
     <a class="collection reveal" href="#">
-      <div class="tall"><img src="assets/placeholder/Urtqf3P5RwoYjeMRi18exmBKwCo.webp" alt=""></div>
-      <h3>Accessories</h3><p>Small pieces that finish the look.</p>
+      <div class="tall"><img src="assets/store/jacket-black.webp" alt=""></div>
+      <h3>Jackets</h3><p>Striped raglan track jackets with a clean finish.</p>
     </a>
   </div>
 </section>
 
-<!-- SECTION: image banner (-> sections/image-banner.liquid) -->
+<!-- SECTION: rich text banner (-> sections/rich-text.liquid) -->
 <section class="banner">
-  <img class="parallax" src="assets/placeholder/SBGxX9TdDbTAqNo8h9lfzUdbNbU.webp" alt="">
   <p class="reveal">Discover a brand where faith, quality and craftsmanship come together.</p>
 </section>
 
 <!-- SECTION: second featured collection -->
 <section class="section">
   <div class="section-head reveal">
-    <div><span class="eyebrow">Best sellers</span><h2>Customer Favourites</h2></div>
+    <div><span class="eyebrow">More to explore</span><h2>Shop the Range</h2></div>
     <a class="btn btn-outline" href="#">View more</a>
   </div>
   <div class="grid grid-3">
     <article class="card reveal">
       <a class="card-media" href="#">
-        <img src="assets/placeholder/gnYracjrKy6Ete0p94z3dwLCU.webp" alt="Narrow Way Tote">
-        <img class="alt" src="assets/placeholder/QrKNGL4kAQcbF1xJzANeqq06eI.webp" alt="">
+        <img src="assets/store/jacket-black.webp" alt="Reflection Striped Raglan Sleeve Jacket">
+        <img class="alt" src="assets/store/jacket-black-back.webp" alt="">
       </a>
-      <h3>Narrow Way Tote</h3><p class="price">£29.99 GBP</p>
+      <h3>Reflection Striped Raglan Sleeve Jacket</h3><p class="price">£35.99 GBP</p>
     </article>
     <article class="card reveal">
       <a class="card-media" href="#">
-        <img src="assets/placeholder/J80m19lyqqYB7SIMkhiDOSeldI.webp" alt="Everyday Beanie">
-        <img class="alt" src="assets/placeholder/Ns0Hd5ApTjQWYeBe6qGgcHRNUZs.webp" alt="">
+        <img src="assets/store/piping-1.webp" alt="Unisex Oversized Piping Fleece Hoodie">
+        <img class="alt" src="assets/store/piping-2.webp" alt="">
       </a>
-      <h3>Everyday Beanie</h3><p class="price">£14.99 GBP</p>
+      <h3>Unisex Oversized Piping Fleece Hoodie</h3><p class="price">£48.99 GBP</p>
     </article>
     <article class="card reveal">
       <a class="card-media" href="#">
-        <img src="assets/placeholder/iToqK4FLzUJxEAEdtOKKho5B530.webp" alt="Satin Lounge Set">
-        <img class="alt" src="assets/placeholder/rtp58ZnAdGnn620a2hc3O8o615k.webp" alt="">
+        <img src="assets/store/boxy-white.webp" alt="Unisex Boxy Coolmax T-Shirt">
+        <img class="alt" src="assets/store/boxy-white-back.webp" alt="">
       </a>
-      <h3>Satin Lounge Set</h3><p class="price">£34.99 GBP</p>
+      <h3>Unisex Boxy Coolmax T-Shirt</h3><p class="price">£15.99 GBP</p>
     </article>
   </div>
 </section>
